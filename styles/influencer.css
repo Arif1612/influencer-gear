@@ -1,0 +1,203 @@
+/* for all */
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* heading  */
+.heading{
+    margin: 30px 200px;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 30PX;
+    margin-bottom: 30PX;
+}
+
+.nav-right{
+    display: flex;
+
+}
+.nav-right-space{
+    margin-left: 10px;
+}
+main{
+    margin: 30px 200px;
+}
+
+
+/* top section main */
+
+.top-section{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+}
+button{
+    background-color: #E02C6D;;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0;
+   
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+   
+}
+button i{
+    margin-left: 5px;
+}
+.top-section-left{
+    width: 95%;
+}
+.top-section-right img{
+      width: 95%;
+}
+
+/* logo section */
+
+.logo-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo4{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo3{
+    margin-left: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* Popular Collection */
+.popular-section h5{
+    color: #E02C6D;
+   text-align: right;
+}
+.all-collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+}
+.popular-section h1{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.single-collection{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 15px;
+    width: 329px;
+    height: 476px;
+}
+.rating{
+    display: flex;
+    margin-left: 10px;
+}
+
+.rating img{
+    width: 300px;
+    height: 256px;
+}
+.rating .full{
+    color:  #FB8200;
+}
+.single-collection h6{
+    color:#787885; 
+}
+
+/* main bottom */
+.main-bottom{
+    display: flex;
+}
+.main-bottom img{
+    width: 95%;
+    padding: 2.5%;
+}
+.main-bottom-right{
+    width: 95%;
+    padding: 2.5%;
+}
+.main-bottom h1 {
+font-weight: 700;
+font-size: 38px;
+}
+
+.main-bottom p{
+    color: #6C6C6C;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(1, 1, 43);
+    height: 259px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-icon i{
+   margin-left: 10px;
+   
+}
+
+
+/* Media Queries */
+/* mobile devices */
+@media screen and (max-width:668px) {
+
+    *{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* .heading{
+        width: 100%;
+        margin: 10px;
+
+    }*/
+    nav{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    } 
+    .top-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        /* gap: 20px; */
+    }
+
+    /* logo section  */
+     
+    .logo-section, .popular-section, .all-collection, .main-bottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+     footer{
+        width: 100%;
+        display: flex;
+         flex-direction: column;
+          
+    }
+
+    
+      
+}
+
+
